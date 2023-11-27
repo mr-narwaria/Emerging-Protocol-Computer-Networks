@@ -54,20 +54,22 @@ reducing latency in the communication process.
 
 ## 6. TLS 1.3
 TLS 1.3 is the latest version of the Transport Layer Security (TLS) protocol, enhancing security and performance in communication over the internet by minimizing 
-handshake complexity and improving encryption algorithms. WebSocket Protocol WebSocket is a communication protocol that provides full-duplex communication
+handshake complexity and improving encryption algorithms.
+## 7. WebSocket Protocol
+WebSocket is a communication protocol that provides full-duplex communication
 channels over a single, long-lived connection, allowing for real-time data exchange between a client and a server in web applications.
 
-## 7. HTTP/3
+## 8. HTTP/3
 HTTP/3 is an application layer protocol that utilizes the QUIC transfer protocol over UDP. It retains the familiar request-response model, status codes, and reliance 
 on URLs seen in previous HTTP versions. Notably, HTTP/3 offers backward compatibility for a seamless transition in existing web infrastructure and introduces 
 multiplexing to facilitate concurrent data transfers.
 
-## 8. BBR
+## 9. BBR
 BBR is a congestion control algorithm by Google that enhances TCP performance. It optimizes data transmission by dynamically adjusting the sending rate based on the
 characteristics of the network, aiming for high throughput and low latency. This is particularly beneficial for improving network performance in activities like web 
 browsing and file transfers.
 
-## 9. DRAP (A Proposed Protocol)
+## 10. DRAP (A Proposed Protocol)
 DRAP optimizes network performance through dynamic resource allocation, employing a specialized header for priority and efficient data transmission. It uses 
 decentralized decision-making, adaptive algorithms, and security features like encryption. DRAP allows customization through QoS negotiation, includes congestion 
 detection, and aims to balance adaptability and efficiency for enhanced network performance.
