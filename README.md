@@ -43,6 +43,7 @@ denial-of-service attacks like SYN attacks.
 
 ## 4. DoH(DNS over TLS)
 DNS over HTTPS (DoH) encrypts DNS resolution using HTTPS, improving user privacy by concealing accessed websites from network observers, including ISPs.
+
 IMPACT ON USER EXPERIENCE:
 - Privacy and Security
 - Control Over Online Experiences
