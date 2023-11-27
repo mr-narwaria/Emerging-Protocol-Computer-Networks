@@ -21,14 +21,15 @@ scenarios. Anticipated outcomes extend beyond theoretical insights, aiming to pr
 experience design. The goal is to contribute to best practices for implementing emerging network protocols in diverse web environments, shaping a digital landscape 
 that is both efficient and user-centric in the ever-evolving digital era.
 
-## QUIC
+## Analyzing the impact on web applications and user experience by following the protocols
+## 1. QUIC
 QUIC, or Quick UDP Internet Connections, is an experimental network protocol created by Google to minimize latency compared to TCP. 
 LOW LATENCY: QUIC reduces latency for new connections to recently visited sites eliminating head-of-line blocking in TLS and TCP. 
 ENCRYPTION TRANSPORT: Encryption and privacy are fundamental to QUIC, connections are protected from tampering and disruption, and most of the headers of the headers 
 are not visible to third parties.
 CONNECTION MIGRATION: QUIC addresses the "parking lot" issue through 18-byte connection IDs, enhancing loss recovery for connections in poor network conditions.
 
-## DoT(DNS over TLS)
+## 2. DoT(DNS over TLS)
 DNS over TLS (DoT) encrypts DNS queries and responses using TLS, boosting user privacy and security by preventing eavesdropping. It operates on port 853, requiring support from both DNS clients and servers. Many popular web browsers, operating systems, and DNS services now embrace DoT for enhanced privacy and security.
 BENEFITS:
 - Encryption of DNS traffic
@@ -36,37 +37,37 @@ BENEFITS:
 - Mitigating DNS spoofing and preventing DNS tampering
 - Standardization and Interoperability
   
-## SCTP(Stream Control Transmission Protocol)
+## 3. SCTP(Stream Control Transmission Protocol)
 New applications are avoiding TCP due to issues like delays from head-of-line blocking, extra overhead in handling continuous data streams, and vulnerability to 
 denial-of-service attacks like SYN attacks.
 
-## DoH(DNS over TLS)
+## 4. DoH(DNS over TLS)
 DNS over HTTPS (DoH) encrypts DNS resolution using HTTPS, improving user privacy by concealing accessed websites from network observers, including ISPs.
 IMPACT ON USER EXPERIENCE:
 - Privacy and Security
 - Control Over Online Experiences
 - Minimal Impact on Web Browsing
 
-## TFO(TCP Fast Open)
+## 5. TFO(TCP Fast Open)
 TCP Fast Open (TFO) is a protocol extension that enables faster establishment of TCP connections by allowing data to be exchanged during the initial handshake, 
 reducing latency in the communication process.
 
-## TLS 1.3
+## 6. TLS 1.3
 TLS 1.3 is the latest version of the Transport Layer Security (TLS) protocol, enhancing security and performance in communication over the internet by minimizing 
 handshake complexity and improving encryption algorithms. WebSocket Protocol WebSocket is a communication protocol that provides full-duplex communication
 channels over a single, long-lived connection, allowing for real-time data exchange between a client and a server in web applications.
 
-## HTTP/3
+## 7. HTTP/3
 HTTP/3 is an application layer protocol that utilizes the QUIC transfer protocol over UDP. It retains the familiar request-response model, status codes, and reliance 
 on URLs seen in previous HTTP versions. Notably, HTTP/3 offers backward compatibility for a seamless transition in existing web infrastructure and introduces 
 multiplexing to facilitate concurrent data transfers.
 
-## BBR
+## 8. BBR
 BBR is a congestion control algorithm by Google that enhances TCP performance. It optimizes data transmission by dynamically adjusting the sending rate based on the
 characteristics of the network, aiming for high throughput and low latency. This is particularly beneficial for improving network performance in activities like web 
 browsing and file transfers.
 
-## DRAP (A Proposed Protocol)
+## 9. DRAP (A Proposed Protocol)
 DRAP optimizes network performance through dynamic resource allocation, employing a specialized header for priority and efficient data transmission. It uses 
 decentralized decision-making, adaptive algorithms, and security features like encryption. DRAP allows customization through QoS negotiation, includes congestion 
 detection, and aims to balance adaptability and efficiency for enhanced network performance.
