@@ -58,7 +58,7 @@ TLS 1.3 is the latest version of the Transport Layer Security (TLS) protocol, en
 handshake complexity and improving encryption algorithms.
 ## 7. WebSocket Protocol
 WebSocket is a communication protocol that provides full-duplex communication
-channels over a single, long-lived connection, allowing for real-time data exchange between a client and a server in web applications.
+channels over a single, long-lived connection, allowing for real-time data exchange between a client and a server in web applications.The advantage of WebSocket is that it enables real-time communication between the client and server without frequent HTTP requests/responses. This brings benefits such as reduced latency and improved performance and responsiveness of web apps. 
 
 ## 8. HTTP/3
 HTTP/3 is an application layer protocol that utilizes the QUIC transfer protocol over UDP. It retains the familiar request-response model, status codes, and reliance 
