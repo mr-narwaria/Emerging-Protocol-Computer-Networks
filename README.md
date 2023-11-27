@@ -1,4 +1,4 @@
-# CSN341 Project Based on Emerging Protocols
+# Group-11: CSN341 Project Based on Emerging Protocols
 In the dynamic realm of web technologies, the advent of emerging network protocols, notably exemplified by the Quick UDP Internet Connections  (QUIC) protocol holds 
 the promise of reshaping application performance and user experience. This comprehensive problem statement aims to explore the multifaceted challenges and 
 opportunities inherent in analyzing the impact of these innovative protocols.
