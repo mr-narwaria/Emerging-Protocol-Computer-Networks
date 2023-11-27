@@ -18,3 +18,16 @@ existing infrastructure.
 The research methodology employs empirical studies, performance benchmarking, user surveys, and real-world simulations, covering diverse scenarios. Anticipated outcomes extend beyond 
 theoretical insights, aiming to provide practical information for web development, network optimization, and user experience design. The goal is to contribute to best practices for implementing 
 emerging network protocols in diverse web environments, shaping a digital landscape that is both efficient and user-centric in the ever-evolving digital era.
+
+## Team Member
+- [Shambhoolal Narwaria](https://github.com/mr-narwaria)
+- [Abhishek Raj](https://github.com/Abhi9708bittu)
+- [Sutirtha Ghosh](https://github.com/suti333)
+- [Alhan Charan Beshra](https://github.com/ezio2605)
+- [Sachin Jangid](https://github.com/sachin)
+- [Ayushka Sahu](https://github.com/ayu-lif3)
+- [Ganga Srujan](https://github.com/GangaSrujan)
+- [Manoj Kumar Sial](https://github.com/manojkumar9911)
+- [Chinchole Tushar Raju](https://github.com/chichole)
+
+
