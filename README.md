@@ -80,7 +80,7 @@ detection, and aims to balance adaptability and efficiency for enhanced network 
 - [Abhishek Raj](https://github.com/Abhi9708bittu)
 - [Sutirtha Ghosh](https://github.com/suti333)
 - [Alhan Charan Beshra](https://github.com/ezio2605)
-- [Sachin Jangid](https://github.com/sachin)
+- [Sachin Jangid](https://github.com/sachin_jangid)
 - [Ayushka Sahu](https://github.com/ayu-lif3)
 - [Ganga Srujan](https://github.com/GangaSrujan)
 - [Manoj Kumar Sial](https://github.com/manojkumar9911)
