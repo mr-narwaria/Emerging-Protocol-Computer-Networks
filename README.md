@@ -1,22 +1,21 @@
 # Group-11: CSN341 Project Based on Emerging Protocols
-In the dynamic realm of web technologies, the advent of emerging network protocols, notably exemplified by the Quick UDP Internet Connections  (QUIC) protocol holds 
-the promise of reshaping application performance and user experience. This comprehensive problem statement aims to explore the multifaceted challenges and 
+In the dynamic realm of web technologies, emerging network protocols, notably exemplified by the Quick UDP Internet Connections (QUIC) protocol, promise to reshape application performance and user experience. This comprehensive problem statement explores the multifaceted challenges and 
 opportunities inherent in analyzing the impact of these innovative protocols.
 
 Web applications have become integral to modern online experiences, serving diverse users across varied devices and network conditions. Traditional protocols, such as 
-Transmission Control Protocol (TCP), exhibits strengths but also limitations. Emerging alternatives like QUIC DoH and TLS offer transformative potential, sparking 
+Transmission Control Protocol (TCP) exhibits strengths but also limitations. Emerging alternatives like QUIC DoH and TLS offer transformative potential, sparking 
 interest in their ability to revolutionize data transmission on the internet.
 
 Understanding the implications of adopting emerging network protocols is crucial for stakeholders ranging from developers to end-users. The analysis is significant as 
-it provides insights into potential benefits and challenges, influencing decisions related to protocol adoption, infrastructure optimization, and user-centric design.
+it provides insights into potential benefits and challenges, influencing protocol adoption, infrastructure optimization, and user-centric design decisions.
 
-The primary objectives of this research include evaluating how protocols like QUIC enhance web application performance, and addressing issues like latency and head-of-
+The primary objectives of this research include evaluating how protocols like QUIC enhance web application performance and addressing issues like latency and head-of-
 line blocking. Robust loss recovery mechanisms and their effectiveness in diverse network conditions are crucial considerations. The impact on the user experience, 
 encompassing perceived speed and overall satisfaction, is a central focus. Additionally, the ability of protocols to facilitate seamless connection migration between 
 different networks is examined, as is their standardization and compatibility with 
 existing infrastructure.
 
-The research methodology employs empirical studies, performance benchmarking, user surveys, and real-world simulations, covering diverse 
+The research methodology employs empirical studies, performance benchmarking, user surveys, and real-world simulations covering diverse 
 scenarios. Anticipated outcomes extend beyond theoretical insights, aiming to provide practical information for web development, network optimization, and user 
 experience design. The goal is to contribute to best practices for implementing emerging network protocols in diverse web environments, shaping a digital landscape 
 that is both efficient and user-centric in the ever-evolving digital era.
@@ -24,8 +23,8 @@ that is both efficient and user-centric in the ever-evolving digital era.
 ## Analyzing the impact on web applications and user experience by following the protocols
 ## 1. QUIC
 QUIC, or Quick UDP Internet Connections, is an experimental network protocol created by Google to minimize latency compared to TCP. 
-LOW LATENCY: QUIC reduces latency for new connections to recently visited sites eliminating head-of-line blocking in TLS and TCP. 
-ENCRYPTION TRANSPORT: Encryption and privacy are fundamental to QUIC, connections are protected from tampering and disruption, and most of the headers of the headers 
+LOW LATENCY: QUIC reduces latency for new connections to recently visited sites, eliminating head-of-line blocking in TLS and TCP. 
+ENCRYPTION TRANSPORT: Encryption and privacy are fundamental to QUIC. Connections are protected from tampering and disruption, and most of the headers of the headers 
 are not visible to third parties.
 CONNECTION MIGRATION: QUIC addresses the "parking lot" issue through 18-byte connection IDs, enhancing loss recovery for connections in poor network conditions.
 
@@ -41,7 +40,7 @@ BENEFITS:
 New applications are avoiding TCP due to issues like delays from head-of-line blocking, extra overhead in handling continuous data streams, and vulnerability to 
 denial-of-service attacks like SYN attacks.
 
-## 4. DoH(DNS over TLS)
+## 4. DoH(DNS over HTTPS)
 DNS over HTTPS (DoH) encrypts DNS resolution using HTTPS, improving user privacy by concealing accessed websites from network observers, including ISPs.
 
 IMPACT ON USER EXPERIENCE:
